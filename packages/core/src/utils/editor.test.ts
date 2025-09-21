@@ -72,7 +72,7 @@ describe('editor utils', () => {
       { editor: 'neovim', commands: ['nvim'], win32Commands: ['nvim'] },
       { editor: 'zed', commands: ['zed', 'zeditor'], win32Commands: ['zed'] },
       { editor: 'emacs', commands: ['emacs'], win32Commands: ['emacs.exe'] },
-      { editor: 'micro', commands: ['micro'], win32Commands: ['micro'] },
+      { editor: 'micro', commands: ['micro'], win32Commands: ['micro.exe'] },
     ];
 
     for (const { editor, commands, win32Commands } of testCases) {
